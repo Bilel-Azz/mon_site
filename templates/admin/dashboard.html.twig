@@ -1,0 +1,10 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Tableau de bord de l'administrateur{% endblock %}
+
+{% block body %}
+    <h1>Tableau de bord de l'administrateur</h1>
+    <a href="{{ path('app_user_index') }}" class="btn btn-primary">Gérer les utilisateurs</a>
+    {# Ajoutez le contenu du tableau de bord administrateur ici #}
+{% endblock %}
